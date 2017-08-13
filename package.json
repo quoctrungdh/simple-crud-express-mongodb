@@ -17,6 +17,6 @@
     "eslint-plugin-import": "^2.7.0"
   },
   "scripts": {
-    "start": "nodemon --inspect server/"
+		"start": "nodemon --inspect server/"
   }
 }
