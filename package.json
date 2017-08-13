@@ -4,11 +4,13 @@
   "main": "server/server.js",
   "repository": "git@github.com:quoctrungdh/simple-crud-express-mongodb.git",
   "author": "quoctrungdh <quoctrungdh@gmail.com>",
-	"license": "MIT",
-	"description": "from https://zellwk.com/blog/crud-express-mongodb/",
+  "license": "MIT",
+  "description": "from https://zellwk.com/blog/crud-express-mongodb/",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
     "express": "^4.15.4",
+    "mongodb": "^2.2.31",
     "morgan": "^1.8.2"
   },
   "devDependencies": {
@@ -17,6 +19,6 @@
     "eslint-plugin-import": "^2.7.0"
   },
   "scripts": {
-		"start": "nodemon --inspect server/"
+    "start": "nodemon --inspect server/"
   }
 }
