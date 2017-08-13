@@ -1,0 +1,22 @@
+{
+  "name": "simple-crud-express-mongodb",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "repository": "git@github.com:quoctrungdh/simple-crud-express-mongodb.git",
+  "author": "quoctrungdh <quoctrungdh@gmail.com>",
+	"license": "MIT",
+	"description": "from https://zellwk.com/blog/crud-express-mongodb/",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "scripts": {
+    "start": "nodemon --inspect server/"
+  }
+}
